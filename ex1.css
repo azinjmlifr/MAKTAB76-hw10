@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.h-Bootstrap {
+  font-weight: 200;
+  font-size: large;
+}
+.p-navbar {
+  font-size: medium;
+  color: rgb(150, 149, 149);
+}
+/* showcase */
+.showcase {
+  height: 430px;
+}
+
+.btn-second-showcase {
+  border: 1px solid rgb(150, 149, 149);
+}
+.p-showcase {
+  font-weight: 50;
+  font-size: medium;
+  color: gray;
+}
+/* cards */
+.cards {
+  height: 750px;
+}
+.icon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c6efd;
+  border-radius: 7px;
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+}
+.card {
+  border: none;
+}
+.p-cards {
+  font-weight: 200;
+  font-size: small;
+}
+.btn-cards {
+  font-weight: 200;
+  font-size: small;
+  color: #0c6efd;
+}
+/* pay */
+.pay {
+  background-color: whitesmoke;
+  height: 1850px;
+}
+.h-pay {
+  margin-top: 100px;
+}
+.p-pay {
+  font-weight: 200;
+}
+.fa-star {
+  color: rgb(218, 183, 41);
+}
+.p-1 {
+  font-weight: 700;
+  font-size: large;
+  color: rgb(152, 152, 152);
+}
+.span-2 {
+  font-weight: 100;
+  font-size: small;
+}
+/* customer */
+.customer {
+  height: 600px;
+}
+.customer-box {
+  border: 1px solid rgb(201, 201, 201);
+}
+.h3-customer {
+  font-size: large;
+}
+.p-0-customer {
+  font-weight: 200;
+}
+.fa-file-text-o {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c6efd;
+  border-radius: 7px;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+}
+.p-customer {
+  font-weight: 300;
+  font-size: medium;
+  color: rgb(97, 97, 97);
+}
+.p-2-customer {
+  font-weight: 100;
+  font-size: small;
+}
+.get-in-touch {
+  height: 500px;
+}
+.Message {
+  height: 150px;
+}
+.input-group {
+  border-radius: none;
+}
+.footer {
+  display: flex !important;
+  height: 80px;
+  background-color: #212529;
+  color: white;
+}
+.copy {
+  font-weight: 100;
+  font-size: small;
+}
+@media only screen and (min-width: 768px) {
+  /* showcase */
+  .btn-showcase {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  /* cards */
+  .cards {
+    height: 350px;
+  }
+  .container-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    flex-direction: column;
+  }
+  /* pay */
+  .pay {
+    height: 820px;
+  }
+  .main-pay-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .get-in-touch-input {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+}
